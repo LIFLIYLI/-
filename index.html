@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的第二篇博客了</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<body>
+        <h1>命令的使用</h1>
+    <p>一：如何使用ls、cat、mv、touch
+        1：ls 意思是 显示当前目录下的所有目录（不包括隐藏目录）
+        在命令行输入ls，点击回车。或者你可以进入到任何一目录下输入ls点击回车，就可以显示当前目录下的所有文件。
+
+
+        2：cat 命令用于连接文件并打印到标准输出设备上
+        语法格式：cat [-AbeEnstTuv] [--help] [--version] fileName
+
+        实例：
+        把 textfile1 的文档内容加上行号后输入 textfile2 这个文档里：
+                cat -n textfile1 > textfile2
+
+        把 textfile1 和 textfile2 的文档内容加上行号（空白行不加）之后将内容附加到 textfile3 文档里：
+                cat -b textfile1 textfile2 >> textfile3
+
+        清空 /etc/test.txt 文档内容：
+                cat /dev/null > /etc/test.txt
+
+
+        3: mv 全称move,移动/重命名。
+         语法格式：mv a b  ;意思是将a改名为b
+         
+         实例：
+         mv 1.0.txt 3.lalala    将文件名为1.0.txt的文件改名为3.lalala
+
+        4: touch 创建一个文件
+         语法格式：touch dudu.html  意思是创建了一个html文件
+        
+      二：explainshell.com网站的使用 
+      首先打开链接，在搜索栏输入你的命令，回车。把鼠标附上去，对应的字符有对应的解释。
+            
+
+</p>  
+
+
+</body>
+</html>
